@@ -7,11 +7,11 @@
 
 using namespace std::chrono_literals;
 
-double xodom, yodom;
+double lodom, wodom;
 void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
 {
-   xodom = msg->pose.pose.position.x;
-   yodom = msg->pose.pose.position.y;
+   lodom = msg->twist.twist.linear.x;
+   wodom = msg->twist.twist.angular.z;
 }
 
 int main(int argc, char * argv[])
@@ -25,14 +25,19 @@ int main(int argc, char * argv[])
   rclcpp::WallRate loop_rate(500ms);
     
   double x=-1, y=3;
-
-  while (rclcpp::ok()) {
+  int flag = 0;	// Condición de parar
+  while (rclcpp::ok() && flag == 0) {
     message.pose.position.x = x;
     message.pose.position.y = y;
     
     publisher->publish(message);
+    
+    if ((std::abs(lodom) < 0.05) && (std::abs(wodom) < 0.05))
+    	flag = 1;
+    
     rclcpp::spin_some(node);
     loop_rate.sleep();
+
   }
   rclcpp::shutdown();
   return 0;
