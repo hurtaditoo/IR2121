@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e8ca7/fast && /usr/bin/make -f CMakeFiles/cmTC_e8ca7.dir/build.make CMakeFiles/cmTC_e8ca7.dir/build
+Run Build Command(s):/usr/bin/make cmTC_943a3/fast && /usr/bin/make -f CMakeFiles/cmTC_943a3.dir/build.make CMakeFiles/cmTC_943a3.dir/build
 make[1]: se entra en el directorio '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e8ca7.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_e8ca7.dir/src.c.o   -c /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_e8ca7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8ca7.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_e8ca7.dir/src.c.o  -o cmTC_e8ca7 
-/usr/bin/ld: CMakeFiles/cmTC_e8ca7.dir/src.c.o: en la función `main':
+Building C object CMakeFiles/cmTC_943a3.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_943a3.dir/src.c.o   -c /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_943a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_943a3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_943a3.dir/src.c.o  -o cmTC_943a3 
+/usr/bin/ld: CMakeFiles/cmTC_943a3.dir/src.c.o: en la función `main':
 src.c:(.text+0x46): referencia a `pthread_create' sin definir
 /usr/bin/ld: src.c:(.text+0x52): referencia a `pthread_detach' sin definir
 /usr/bin/ld: src.c:(.text+0x63): referencia a `pthread_join' sin definir
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_e8ca7.dir/build.make:87: cmTC_e8ca7] Error 1
+make[1]: *** [CMakeFiles/cmTC_943a3.dir/build.make:87: cmTC_943a3] Error 1
 make[1]: se sale del directorio '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_e8ca7/fast] Error 2
+make: *** [Makefile:121: cmTC_943a3/fast] Error 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_27bdd/fast && /usr/bin/make -f CMakeFiles/cmTC_27bdd.dir/build.make CMakeFiles/cmTC_27bdd.dir/build
+Run Build Command(s):/usr/bin/make cmTC_bc772/fast && /usr/bin/make -f CMakeFiles/cmTC_bc772.dir/build.make CMakeFiles/cmTC_bc772.dir/build
 make[1]: se entra en el directorio '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_27bdd.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_27bdd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_27bdd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27bdd.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_27bdd.dir/CheckFunctionExists.c.o  -o cmTC_27bdd  -lpthreads 
+Building C object CMakeFiles/cmTC_bc772.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bc772.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bc772
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc772.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_bc772.dir/CheckFunctionExists.c.o  -o cmTC_bc772  -lpthreads 
 /usr/bin/ld: no se puede encontrar -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_27bdd.dir/build.make:87: cmTC_27bdd] Error 1
+make[1]: *** [CMakeFiles/cmTC_bc772.dir/build.make:87: cmTC_bc772] Error 1
 make[1]: se sale del directorio '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_27bdd/fast] Error 2
+make: *** [Makefile:121: cmTC_bc772/fast] Error 2
 
 
 
