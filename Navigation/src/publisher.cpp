@@ -7,9 +7,11 @@
 
 using namespace std::chrono_literals;
 
+double xodom, yodom;
 void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
 {
-  std::cout << msg->data << std::endl;
+   xodom = msg->pose.pose.position.x;
+   yodom = msg->pose.pose.position.y;
 }
 
 int main(int argc, char * argv[])
