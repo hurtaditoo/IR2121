@@ -1,4 +1,4 @@
-# Install script for directory: /home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav
+# Install script for directory: /home/usuario/Documentos/GitHub/IR2121/Navigation/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -113,7 +113,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav" TYPE FILE FILES "/home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav" TYPE FILE FILES "/home/usuario/Documentos/GitHub/IR2121/Navigation/src/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
