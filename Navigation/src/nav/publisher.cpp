@@ -39,7 +39,7 @@ int main(int argc, char * argv[])
     	
     transformStamped = buffer.lookupTransform("base_link", "map" rrclp::Time(0), rrclp::Duration(5.0);
     
-    tf2::doTransform(message, transformStamped);
+    tf2::doTransform(message, message, transformStamped);
     
     rclcpp::spin_some(node);
     loop_rate.sleep();
