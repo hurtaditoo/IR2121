@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/usuario/Documentos/GitHub/IR2121/Navigation/src
+CMAKE_SOURCE_DIR = /home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/usuario/Documentos/GitHub/IR2121/Navigation/src /home/usuario/Documentos/GitHub/IR2121/Navigation/src /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav /home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

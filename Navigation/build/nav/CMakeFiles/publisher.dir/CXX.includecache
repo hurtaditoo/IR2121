@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/usuario/Documentos/GitHub/IR2121/Navigation/src/publisher.cpp
+/home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav/publisher.cpp
 chrono
 -
 rclcpp/rclcpp.hpp
-/home/usuario/Documentos/GitHub/IR2121/Navigation/src/rclcpp/rclcpp.hpp
+/home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav/rclcpp/rclcpp.hpp
 geometry_msgs/msg/pose_stamped.hpp
-/home/usuario/Documentos/GitHub/IR2121/Navigation/src/geometry_msgs/msg/pose_stamped.hpp
+/home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav/geometry_msgs/msg/pose_stamped.hpp
 nav_msgs/msg/odometry.hpp
-/home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav_msgs/msg/odometry.hpp
+/home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav/nav_msgs/msg/odometry.hpp
 iostream
 -
 cstdlib
