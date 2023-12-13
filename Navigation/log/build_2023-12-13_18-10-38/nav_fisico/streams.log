@@ -1,0 +1,26 @@
+[0.714s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav_fisico': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav_fisico -- -j2 -l2
+[0.905s] [35m[1mScanning dependencies of target publisher[0m
+[1.040s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[22.697s] [100%] [32m[1mLinking CXX executable publisher[0m
+[23.968s] [100%] Built target publisher
+[24.017s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav_fisico' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav_fisico -- -j2 -l2
+[24.136s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav_fisico': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav_fisico
+[24.173s] -- Install configuration: ""
+[24.175s] -- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/lib/nav_fisico/publisher
+[24.190s] -- Set runtime path of "/home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/lib/nav_fisico/publisher" to ""
+[24.191s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/ament_index/resource_index/package_run_dependencies/nav_fisico
+[24.191s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/ament_index/resource_index/parent_prefix_path/nav_fisico
+[24.192s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/environment/ament_prefix_path.sh
+[24.193s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/environment/ament_prefix_path.dsv
+[24.194s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/environment/path.sh
+[24.196s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/environment/path.dsv
+[24.197s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/local_setup.bash
+[24.198s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/local_setup.sh
+[24.199s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/local_setup.zsh
+[24.200s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/local_setup.dsv
+[24.202s] -- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/package.dsv
+[24.202s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/ament_index/resource_index/packages/nav_fisico
+[24.203s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/cmake/nav_fisicoConfig.cmake
+[24.203s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/cmake/nav_fisicoConfig-version.cmake
+[24.203s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/package.xml
+[24.210s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav_fisico' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav_fisico

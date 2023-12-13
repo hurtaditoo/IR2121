@@ -1,0 +1,22 @@
+[1.625s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav -- -j2 -l2
+[1.880s] [100%] Built target publisher
+[1.928s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav -- -j2 -l2
+[2.079s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav
+[2.122s] -- Install configuration: ""
+[2.125s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/lib/nav/publisher
+[2.127s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/ament_index/resource_index/package_run_dependencies/nav
+[2.128s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/ament_index/resource_index/parent_prefix_path/nav
+[2.129s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/environment/ament_prefix_path.sh
+[2.130s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/environment/ament_prefix_path.dsv
+[2.131s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/environment/path.sh
+[2.132s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/environment/path.dsv
+[2.133s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/local_setup.bash
+[2.134s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/local_setup.sh
+[2.135s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/local_setup.zsh
+[2.137s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/local_setup.dsv
+[2.138s] -- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/package.dsv
+[2.140s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/ament_index/resource_index/packages/nav
+[2.141s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/cmake/navConfig.cmake
+[2.142s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/cmake/navConfig-version.cmake
+[2.143s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/package.xml
+[2.160s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav

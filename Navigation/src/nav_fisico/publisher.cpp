@@ -24,10 +24,10 @@ int main(int argc, char * argv[])
   
   rclcpp::WallRate loop_rate(500ms);
     
-  double x[4]={-1, 4, 8.08, 2.9}, y[4]={3, 4.85, 0.12, 0.91}, difx, dify;
+  double x[3]={2.8, -3.21, -9.5}, y[3]={-6.1, -4.1, -4.5}, difx, dify;
   int contador = 0;	// Contador para saber por cual posición voy
   
-  while (rclcpp::ok() && contador <= 4) {
+  while (rclcpp::ok() && contador <= 3) {
     message.pose.position.x = x[contador];
     message.pose.position.y = y[contador];
     
