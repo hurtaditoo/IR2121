@@ -17,8 +17,8 @@ int main(int argc, char * argv[])
   geometry_msgs::TransformStamped transformStamped; 
   geometry_msgs::msg::PoseStamped message;
   
-  <tf2_ros/Buffer>tf2_ros::Buffer buffer;
-  <tf2_ros/TransformListener>tf2_ros::TransformListener listener(buffer);
+  <tf2_ros/Buffer> tf2_ros::Buffer buffer;
+  <tf2_ros/TransformListener> tf2_ros::TransformListener listener(buffer);
 
   rclcpp::WallRate loop_rate(500ms);
     
@@ -37,7 +37,9 @@ int main(int argc, char * argv[])
     if ((difx < 0.3) && (dify < 0.3))
     	contador++;    
     	
-    transformStamped = buffer.lookupTransform("base_link", "map" rrclp::Time(0), rrclp::Duration(5);
+    transformStamped = buffer.lookupTransform("base_link", "map" rrclp::Time(0), rrclp::Duration(5.0);
+    
+    tf2::doTransform(message, transformStamped);
     
     rclcpp::spin_some(node);
     loop_rate.sleep();
