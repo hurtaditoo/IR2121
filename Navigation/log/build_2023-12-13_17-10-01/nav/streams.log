@@ -1,0 +1,11 @@
+[0.016s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav -- -j6 -l6
+[0.062s] [35m[1mScanning dependencies of target publisher[0m
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[0.160s] [01m[K/home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav/publisher.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/PoseWithCovarianceStamped.h: No existe el archivo o el directorio
+[0.160s]     4 | #include [01;31m[K"geometry_msgs/PoseWithCovarianceStamped.h"[m[K
+[0.160s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.160s] compilation terminated.
+[0.161s] make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+[0.162s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher.dir/all] Error 2
+[0.162s] make: *** [Makefile:141: all] Error 2
+[0.164s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav -- -j6 -l6

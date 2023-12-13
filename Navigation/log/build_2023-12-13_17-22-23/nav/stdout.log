@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable publisher[0m
+[100%] Built target publisher
+-- Install configuration: ""
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/lib/nav/publisher
+-- Set runtime path of "/home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/lib/nav/publisher" to ""
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/ament_index/resource_index/package_run_dependencies/nav
+-- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/ament_index/resource_index/parent_prefix_path/nav
+-- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/environment/ament_prefix_path.sh
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/environment/path.sh
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/environment/path.dsv
+-- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/local_setup.bash
+-- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/local_setup.sh
+-- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/local_setup.zsh
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/local_setup.dsv
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/package.dsv
+-- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/ament_index/resource_index/packages/nav
+-- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/cmake/navConfig.cmake
+-- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/cmake/navConfig-version.cmake
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav/share/nav/package.xml

@@ -80,10 +80,10 @@ publisher_EXTERNAL_OBJECTS =
 publisher: CMakeFiles/publisher.dir/publisher.cpp.o
 publisher: CMakeFiles/publisher.dir/build.make
 publisher: /opt/ros/foxy/lib/librclcpp.so
-publisher: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
-publisher: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_c.so
-publisher: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
-publisher: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_cpp.so
+publisher: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+publisher: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+publisher: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+publisher: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 publisher: /opt/ros/foxy/lib/liblibstatistics_collector.so
 publisher: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 publisher: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
@@ -113,12 +113,7 @@ publisher: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 publisher: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 publisher: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 publisher: /opt/ros/foxy/lib/libtracetools.so
-publisher: /opt/ros/foxy/lib/libnav_msgs__rosidl_generator_c.so
-publisher: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 publisher: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
-publisher: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
-publisher: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-publisher: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 publisher: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 publisher: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
 publisher: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so

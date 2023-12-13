@@ -1,0 +1,23 @@
+[0.015s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav -- -j6 -l6
+[0.037s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.060s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.223s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.251s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.383s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.384s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.487s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.576s] -- Configuring done
+[0.588s] -- Generating done
+[0.590s] -- Build files have been written to: /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav
+[0.620s] [35m[1mScanning dependencies of target publisher[0m
+[0.646s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[0.717s] [01m[K/home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav/publisher.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/PoseWithCovarianceStamped.hpp: No existe el archivo o el directorio
+[0.717s]     4 | #include [01;31m[K"geometry_msgs/msg/PoseWithCovarianceStamped.hpp"[m[K
+[0.717s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.718s] compilation terminated.
+[0.719s] make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+[0.720s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher.dir/all] Error 2
+[0.720s] make: *** [Makefile:141: all] Error 2
+[0.723s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav -- -j6 -l6
