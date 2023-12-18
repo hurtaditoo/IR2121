@@ -1,10 +1,11 @@
 #include <chrono>
+#include <iostream>
+#include <cstdlib>
+
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
 #include "tf2_ros/transform_listener.h"
 #include "geometry_msgs/transform_stamped.hpp"
-#include <iostream>
-#include <cstdlib>
 
 using namespace std::chrono_literals;
 
@@ -17,8 +18,8 @@ int main(int argc, char * argv[])
   geometry_msgs::TransformStamped transformStamped; 
   geometry_msgs::msg::PoseStamped message;
   
-  <tf2_ros/Buffer> tf2_ros::Buffer buffer;
-  <tf2_ros/TransformListener> tf2_ros::TransformListener listener(buffer);
+  std::unique_ptr<tf2_ros::Buffer> buffer = std::make_unique<tf2_ros::Buffer>(this->get_clock());
+  std::shared_ptr<tf2_ros::TransformListener> listener = std::make_shared<tf2_ros::TransformListener>(*buffer);	// No lo dejo como listener(buffer) porque cambio el std::make_unique y make_shared
 
   rclcpp::WallRate loop_rate(500ms);
     
@@ -34,12 +35,11 @@ int main(int argc, char * argv[])
     difx = std::abs(message.pose.position.x); 
     dify = std::abs(message.pose.position.y); 
     
+    transformStamped = buffer->lookupTransform("base_footprint", "map", rrclp::Time(0), rrclp::Duration(5s);   
+    tf2::doTransform(message, transformStamped);
+    
     if ((difx < 0.3) && (dify < 0.3))
     	contador++;    
-    	
-    transformStamped = buffer.lookupTransform("base_link", "map" rrclp::Time(0), rrclp::Duration(5.0);
-    
-    tf2::doTransform(message, message, transformStamped);
     
     rclcpp::spin_some(node);
     loop_rate.sleep();
