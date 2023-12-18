@@ -1,0 +1,18 @@
+[01m[K/home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav/publisher.cpp:39:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KdoTransform(geometry_msgs::msg::PoseStamped&, geometry_msgs::msg::TransformStamped&)[m[K’
+   39 |     tf2::doTransform(message, transformStamped[01;31m[K)[m[K;
+      |                                               [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/tf2_ros/buffer_interface.h:41[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:41[m[K,
+                 from [01m[K/home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav/publisher.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/tf2/convert.h:60:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void tf2::doTransform(const T&, T&, const TransformStamped&)[m[K’
+   60 |   void [01;36m[KdoTransform[m[K(const T& data_in, T& data_out, const geometry_msgs::msg::TransformStamped& transform);
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2/convert.h:60:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav/publisher.cpp:39:47:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[KT[m[K’ (‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ and ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’})
+   39 |     tf2::doTransform(message, transformStamped[01;36m[K)[m[K;
+      |                                               [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,19 @@
+[100%] Built target publisher
+-- Install configuration: ""
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/lib/nav_fisico/publisher
+-- Set runtime path of "/home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/lib/nav_fisico/publisher" to ""
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/ament_index/resource_index/package_run_dependencies/nav_fisico
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/ament_index/resource_index/parent_prefix_path/nav_fisico
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/environment/ament_prefix_path.sh
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/environment/ament_prefix_path.dsv
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/environment/path.sh
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/environment/path.dsv
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/local_setup.bash
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/local_setup.sh
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/local_setup.zsh
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/local_setup.dsv
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/package.dsv
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/ament_index/resource_index/packages/nav_fisico
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/cmake/nav_fisicoConfig.cmake
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/cmake/nav_fisicoConfig-version.cmake
+-- Installing: /home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav_fisico/share/nav_fisico/package.xml

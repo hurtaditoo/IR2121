@@ -1,0 +1,56 @@
+[0.023s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav
+[0.065s] -- The C compiler identification is GNU 9.4.0
+[0.107s] -- The CXX compiler identification is GNU 9.4.0
+[0.111s] -- Check for working C compiler: /usr/bin/cc
+[0.165s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.166s] -- Detecting C compiler ABI info
+[0.217s] -- Detecting C compiler ABI info - done
+[0.227s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.230s] -- Check for working CXX compiler: /usr/bin/c++
+[0.298s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.298s] -- Detecting CXX compiler ABI info
+[0.362s] -- Detecting CXX compiler ABI info - done
+[0.372s] -- Detecting CXX compile features
+[0.372s] -- Detecting CXX compile features - done
+[0.373s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.396s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.396s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.560s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.593s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.597s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.660s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.689s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.791s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.792s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.794s] -- Looking for pthread.h
+[0.850s] -- Looking for pthread.h - found
+[0.850s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.911s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.911s] -- Looking for pthread_create in pthreads
+[0.960s] -- Looking for pthread_create in pthreads - not found
+[0.960s] -- Looking for pthread_create in pthread
+[1.017s] -- Looking for pthread_create in pthread - found
+[1.018s] -- Found Threads: TRUE  
+[1.126s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.151s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.159s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.399s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.405s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.408s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.487s] -- Configuring done
+[1.494s] -- Generating done
+[1.496s] -- Build files have been written to: /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav
+[1.504s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2121/Navigation/install/nav
+[1.506s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav -- -j6 -l6
+[1.540s] [35m[1mScanning dependencies of target publisher[0m
+[1.571s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[4.070s] [100%] [32m[1mLinking CXX executable publisher[0m
+[4.237s] /usr/bin/ld: CMakeFiles/publisher.dir/publisher.cpp.o: en la función `main':
+[4.237s] publisher.cpp:(.text+0x65c): referencia a `void tf2::doTransform<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >(geometry_msgs::msg::PoseStamped_<std::allocator<void> > const&, geometry_msgs::msg::PoseStamped_<std::allocator<void> >&, geometry_msgs::msg::TransformStamped_<std::allocator<void> > const&)' sin definir
+[4.238s] collect2: error: ld returned 1 exit status
+[4.238s] make[2]: *** [CMakeFiles/publisher.dir/build.make:167: publisher] Error 1
+[4.239s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher.dir/all] Error 2
+[4.239s] make: *** [Makefile:141: all] Error 2
+[4.240s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav -- -j6 -l6

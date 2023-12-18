@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/publisher.dir/publisher.cpp.o: en la función `main':
+publisher.cpp:(.text+0x65c): referencia a `void tf2::doTransform<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >(geometry_msgs::msg::PoseStamped_<std::allocator<void> > const&, geometry_msgs::msg::PoseStamped_<std::allocator<void> >&, geometry_msgs::msg::TransformStamped_<std::allocator<void> > const&)' sin definir
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/publisher.dir/build.make:167: publisher] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

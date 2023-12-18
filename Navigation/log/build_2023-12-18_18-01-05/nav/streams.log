@@ -1,0 +1,11 @@
+[0.024s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav -- -j6 -l6
+[0.058s] [35m[1mScanning dependencies of target publisher[0m
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[1.181s] [01m[K/home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.181s] [01m[K/home/usuario/Documentos/GitHub/IR2121/Navigation/src/nav/publisher.cpp:38:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::unique_ptr<tf2_ros::Buffer>[m[K’ has no member named ‘[01m[KlookupTransform[m[K’
+[1.181s]    38 |     transformStamped = buffer.[01;31m[KlookupTransform[m[K("base_footprint", "map", rclcpp::Time(0), rclcpp::Duration(5s));
+[1.181s]       |                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.956s] make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+[1.956s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publisher.dir/all] Error 2
+[1.956s] make: *** [Makefile:141: all] Error 2
+[1.959s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/Navigation/build/nav -- -j6 -l6
