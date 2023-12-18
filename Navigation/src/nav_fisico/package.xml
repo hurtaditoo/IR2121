@@ -3,7 +3,7 @@
 <package format="2">
   <name>nav_fisico</name>
   <version>0.0.1</version>
-  <description>Patrolling task with simulationand turtlebot3</description>
+  <description>Patrolling task with simulation and turtlebot3</description>
 
   <maintainer email="al415507@uji.es">Irene Mejía</maintainer>
 
@@ -15,9 +15,15 @@
 
   <build_depend>rclcpp</build_depend>
   <build_depend>geometry_msgs</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
 
   <exec_depend>rclcpp</exec_depend>
   <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>tf2</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>tf2_geometry_msgs</exec_depend>
   
   <export>
     <build_type>ament_cmake</build_type>
